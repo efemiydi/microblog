@@ -1,0 +1,212 @@
+.label {
+    display: block;
+    float: left;
+    font-size: 15px;
+    margin: 5px 4px 2px 0;
+    font-weight:normal;
+    width: 180px;
+}
+.label-min {
+    display: block;
+    float: left;
+    font-size: 13px;
+    margin: 5px 4px 2px 0;
+    font-weight:normal;
+    width: 50px;
+}
+.required {
+    color: #C92021;
+    font-weight: 900;
+}
+.label-ar {
+    text-align: right;
+}
+.label-radio {
+
+}
+
+select {
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border:1px solid #DBDBDB;
+    font-size:13px;
+    margin:0 0 5px;
+    padding:5px;
+}
+select:hover {
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border:1px solid #B7B7B7;
+    font-size:13px;
+    margin:0 0 5px;
+    padding:5px;
+}
+select:focus {
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border:1px solid #B7B7B7;
+    background-color: #F4F4F4;
+    font-size:13px;
+    margin:0 0 5px;
+    padding:5px;
+}
+input[type=text], input[type=password] {
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border:1px solid #DBDBDB;
+    font-size:13px;
+    margin:0 0 5px;
+    padding:5px;
+}
+input[type=text]:hover, input[type=password]:hover {
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border:1px solid #B7B7B7;
+    font-size:13px;
+    margin:0 0 5px;
+    padding:5px;
+}
+input[type=text]:focus, input[type=password]:focus {
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border:1px solid #B7B7B7;
+    background-color: #F4F4F4;
+    font-size:13px;
+    margin:0 0 5px;
+    padding:5px;
+}
+
+input[type=file] {
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border:1px solid #DBDBDB;
+    font-size:13px;
+    margin:0 0 5px;
+    padding:5px;
+}
+textarea {
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border:1px solid #DBDBDB;
+    font-size:13px;
+    margin:0 0 5px;
+    padding:5px;
+}
+textarea:hover {
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border:1px solid #B7B7B7;
+    font-size:13px;
+    margin:0 0 5px;
+    padding:5px;
+}
+textarea:focus {
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border:1px solid #B7B7B7;
+    background-color: #F4F4F4;
+    font-size:13px;
+    margin:0 0 5px;
+    padding:5px;
+}
+
+.button, a.button, .button-radius {
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    background:#39d url('../images/bg-btn-blue.png') repeat-x scroll 0 0;
+    border:1px solid #39D;
+    color:#fff;
+    text-shadow:0 -1px 0 #39d;
+    padding:5px 10px 4px;
+    font-size:11px;
+    margin:0 2px 0 0;
+    font-weight:bold;
+    width: auto;
+}
+.button::-moz-focus-inner, .button-radius::-moz-focus-inner {
+    padding:0;
+    border:0;
+}
+.button:hover, .button:focus, .button-radius:hover, .button-radius:focus {
+    background-position:0 -5px;
+    cursor:pointer;
+}
+.button-red {
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    background:#db0000 url('../images/bg-btn-red.png') repeat-x scroll 0 0;
+    border:1px solid #db0000;
+    color:#fff;
+    text-shadow:0 -1px 0 #db0000;
+    padding:4px 10px 5px;
+    font-size:11px;
+    margin:0 5px 0 0;
+    font-weight:bold;
+    width: auto;
+}
+.button-red::-moz-focus-inner {
+    padding:0;
+    border:0;
+}
+.button-red:hover, .button-red:focus {
+    background-position:0 -5px;
+    cursor:pointer;
+}
+.button-grey {
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    background:#c9c9c9 url('../images/bg-btn-grey.png') repeat-x scroll 0 0;
+    border:1px solid #c9c9c9;
+    color:#fff;
+    text-shadow:0 -1px 0 #b8b4b4;
+    padding:4px 10px 5px;
+    font-size:11px;
+    margin:0 2px 0 0;
+    font-weight:bold;
+    width: auto;
+}
+.button-grey::-moz-focus-inner {
+    padding:0;
+    border:0;
+}
+
+textarea.autogrow {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    resize: none;
+    outline: none;
+    overflow-y: hidden;
+    background-color: transparent;
+}
+textarea.autogrow:hover {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    resize: none;
+    outline: none;
+    overflow-y: hidden;
+    background-color: transparent;
+}
+textarea.autogrow:focus {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    resize: none;
+    outline: none;
+    overflow-y: hidden;
+    background-color: transparent;
+}
+
+textarea.autogrow {
+
+}
+
+div.autogrow {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 0;
+    overflow: hidden;
+    padding: 3px;
+    resize: none;
+}
