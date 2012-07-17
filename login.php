@@ -6,9 +6,9 @@ require 'includes/functions.php';
 connect_db();
 
 if ($_POST['action'] == 'login') {
-    if (!$_POST['username'] || !$_POST['password'])
+    if (!$_POST['username'] || !$_POST['password']) {
         $errors[] = 'Kullanıcı adı ve parolanızı girmeniz gerekmektedir.';
-    else {
+    } else {
         $username = mysql_real_escape_string($_POST['username']);
         $password = sha1($_POST['password']);
         
