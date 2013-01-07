@@ -24,5 +24,5 @@
     <label class="label">&nbsp;</label>
     <input type="hidden" name="action" value="login" />
     <input type="submit" class="button" value="Giriş yap" />
-    <a href="<?php echo DOC_ROOT ?>/forgot">parolamı unuttum</a>
+    <a href="<?php echo DOC_ROOT ?>/forgot.php">parolamı unuttum</a>
 </form>
