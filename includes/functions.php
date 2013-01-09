@@ -14,5 +14,6 @@ function connect_db() {
  */
 function get_username($user_id) {
     $query = mysql_query("SELECT username FROM users WHERE id = '$user_id'");
-    return mysql_result($query, 0);
+    $username = mysql_fetch_array($query);
+    return $username[0];
 }
