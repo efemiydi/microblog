@@ -13,7 +13,7 @@ if ($_GET['action'] == 'logout') { // çıkış yap linkine tıklanmışsa
 if ($_SESSION['user_id'] > 0) { // kullanıcı girişi yapılmışsa
     if ($_POST['action'] == 'save_message' && $_POST['message']) {
         $message = mysql_real_escape_string($_POST['message']);
-        $message = htmlspecialchars($_POST['message']);
+        $message = htmlspecialchars($message);
         
         $query = mysql_query("INSERT INTO messages
              (user_id, message, created_at)
